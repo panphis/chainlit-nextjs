@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { IAuthConfig } from 'src/index';
+import { IAuthConfig } from '../../../types';
 
 import { useApi } from '../api';
 import { useAuthState } from './state';
